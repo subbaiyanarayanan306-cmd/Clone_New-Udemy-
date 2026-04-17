@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: cambarito,sans-serif;
+}
+
+/* WHOLE DIV : */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    gap: 10px;
+
+}
+
+/* FIRST SECTION TITLE : */
+.navbar__s1__title{
+      color: #A435F0;
+}
+
+/* SECOND SECTION :SEARCH  */
+.navbar__s2{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.navbar__s2 input:focus{
+  outline: none;
+}
+
+
+/* THIRED SECTION ICON'S : */
+.navbar__s3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+/* SECOND PART START HERE  */
+
+/*CATEGOREY CREATION :  */
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* INSIDE CATEGOREY P TAG : */
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius:30px;
+}
+
+/* SALE'S IMAGE : */
+.sale-image img{
+     width:100%;
+}
+
+/* RECOMMENDED CONTAINER CARD CREATION BEGINS: */
+
+.recommended{
+    padding: 10px;
+}
+
+.course-card{
+    width: 350px;
+   /* WIDTH : 20% WILL IMAGE INSIDE 20% ONLEY TAKEN OUTSIDE 100% TAKEN  */
+
+}
+
+.course-card img{
+    width: 100%;
+    height: 50%;
+
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+/* TOPICES :CONTENT */
+.topics{
+     padding: 10px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p{
+    border: 1px solid grey;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+
+}
+
+/* NEXT POPULAR SECTION : */
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* FOOTER SECTION : */
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
